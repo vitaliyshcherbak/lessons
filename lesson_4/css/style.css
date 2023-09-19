@@ -1,0 +1,52 @@
+@import url(reset.css);
+* {
+   color: black;
+}
+h1 {
+   color: blueviolet;
+}
+p {
+   color: darkblue;
+}
+li {
+   color: cornflowerblue;
+}
+#main-text {
+   color: blue;
+}
+#main-text-two {
+   color: brown;
+}
+p.paragraph {
+   color: chocolate;
+}
+.paragraph__text.text {
+   color: chartreuse;
+}
+.paragraph-two,
+.paragraph-three {
+   color: coral;
+}
+.header a {
+   color: black;
+}
+.paragraph-four ~ p {
+   color: blueviolet;
+}
+.paragraph-five + p {
+   color: red;
+ }
+ [class^="list"] {
+   color: red;
+ }
+ .footer * {
+   color: darkorange;
+ }
+ .text-two,
+ .text-three,
+ .text-four {
+   color: black;
+ }
+ .text-six {
+   color: green !important;
+ }

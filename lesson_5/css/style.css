@@ -1,0 +1,95 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+/* Підключення вручну */
+@font-face {
+   font-family: 'BOOKOSB';
+   src:
+   url("../fonts/BOOKOSB.woff2") format("woff2"),
+   url("../fonts/BOOKOSB.woff") format("woff") ;
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'BOOKOS';
+   src:
+   url("../fonts/BOOKOS.woff2") format("woff2"), 
+   url("../fonts/BOOKOS.woff") format("woff") ;
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'andlso';
+   src: 
+   url(../fonts/andlso.woff2) format("woff2"), 
+   url(../fonts/andlso.woff) format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+   font-family: 'BRITANIC';
+   src:
+   url(../fonts/BRITANIC-1.woff2) format("woff2"), 
+   url(../fonts/BRITANIC-1.woff) format("woff");
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+} 
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   color: #7D7D7D;
+}
+h1,
+h2,
+h3 {
+   font-family: 'Poppins', sans-serif;
+}
+h1 {
+   font-size: 30px;
+   font-weight: 600;
+   color: #37393F;
+}
+h2 {
+   font-size: 20px;
+   font-weight: 600;
+   color: #6B77E5;
+}
+h3 {
+   font-size: 40px;
+   font-weight: 700;
+   color: #37393F;
+   text-align: center;
+   text-decoration: underline;
+   word-spacing: 5px;
+}
+.text p {
+   line-height: 1.27;
+   letter-spacing: 0.5px;
+   text-indent: 10px;
+}
+h4,
+h5,
+h6 {
+   font-family: 'BRITANIC-1'; 
+   font-size: 22px;
+   font-weight: 400;  
+   color: #37393F; 
+}
+.main {
+   border-bottom: 1px solid darkblue;
+}
+.footer h3 {
+   font-family: 'BOOKOSB';
+}
+.block-text p {
+   font-family: 'BOOKOS';
+   text-shadow:1px 1px gray;
+
+}
+.block p {
+   font-family: 'andlso';
+}

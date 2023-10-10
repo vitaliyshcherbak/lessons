@@ -1,0 +1,340 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+  font-family:"Inter",sans-serif;
+  color: #7d7d7d;
+  font-size: 18px;
+ }
+  h1,
+  h2,
+  h5,
+  h6,
+ .list {
+  font-family:"Poppins", sans-serif;
+  color: #37393f;
+ }
+ h3,
+ .block-1,
+ .block-3,
+ .block-4 a {
+    font-family:"CoreSansC-65Bold";
+    color: #807D7E;
+    font-size: 20px;
+    line-height: 33.5px;
+    letter-spacing: 0.4px;
+ }
+ .block-2,
+ .block-4 {
+    font-family:"Causten-Regular";
+    color: #807D7E;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 167.5%;
+    letter-spacing: 0.4px;
+ }
+ .fashion {
+  font-family:"Causten-Light";
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+ }
+ h4 {
+  font-family:"CoreSansC-85Heavylt";
+  color: #fff;
+  font-size: 34px;
+  font-weight: 800;
+ }
+ .fashion-button {
+  font-family:"Causten-Bold";
+  font-size: 18px;
+  font-weight: 700;
+  color: #3c4242;
+  background: #fff;
+  text-align: center;
+  }
+ .business {
+  padding: 10px 15px;
+  max-width: 703px;
+  margin: 0 auto 50px;
+ }
+ .welcome {
+   margin-bottom: 16px;
+ }
+ .decor {
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background: #40ddb6;
+   margin-right: 6px;
+ }
+ 
+ .welcome-text {
+   display: inline-block;
+   color: #37393F;
+   font-weight: 500;
+ }
+  h1 {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 121%;
+   margin-bottom: 20px;
+ }
+ .text-block {
+   line-height: 146.187%;
+   margin-bottom: 20px;
+ }
+ .text-block p {
+   margin-bottom: 15px;
+ }
+ .text-block p:last-child {
+   margin-bottom: 0;
+ }
+.list {
+  font-size: 20px;
+  line-height: 165%;
+  margin-bottom: 43px;
+}
+.item { 
+  padding-left: 35px;
+  margin-bottom: 23px;
+  background: url("../img/vector.svg") 0 3px no-repeat;
+}
+.item:last-child {
+  margin-bottom: 0;
+}
+.experiences {
+  margin-bottom: 37px;
+}
+.experience {
+  display: inline-block;
+  max-width: 295px;
+  padding: 31px 32px 32px 51px;
+  margin-right: 21px;
+  background : url(../img/icon-1.svg) 10px 31px no-repeat;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 3px;
+}
+.leverage-1 {
+  font-size: 16px;
+  line-height: 135.187%;
+}
+.winner {
+  display: inline-block;
+  max-width: 295px;
+  padding: 31px 37px 32px 56px;
+  background : url(../img/icon-1.svg) 14px 31px no-repeat;
+}
+.business-button {
+  display: inline-block;
+  color: #FFF;
+  background: #6b77e5;
+  font-weight: 600;
+  padding: 21px 27px 22px 27px;
+}
+/*------Part 2---------*/
+.content {
+  max-width: 1270px;
+  margin: 0 auto 50px;
+  padding: 10px 15px;
+}
+.back {
+  padding-left: 15px;
+  background: url(../img/clozing.png) 0 3px no-repeat;
+  margin-bottom: 30px;
+}
+h3 {
+  color: #3C4242;
+  font-size: 28px;
+  font-weight: 650;
+  line-height: 119.643%;
+  letter-spacing: 0.56px;
+}
+.content-block {
+  padding-left: 21px;
+}
+.block-1 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.block-2 {
+  margin-bottom: 25px;
+}
+.block-2 p {
+  margin-bottom: 20px;
+}
+.block-3 {
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+.block-4 p {
+  margin-bottom: 20px;
+}
+/*------Part 3-------*/
+.fashion-content {
+  padding: 10px 15px;
+  max-width: 1258px;
+  margin: 0 auto 50px;
+  font-size: 0;
+}
+.fashion-container {
+  border-radius: 10px;
+}
+.left-part {
+  width: 613px;
+  min-height: 639px;
+  display: inline-block;
+  vertical-align: top;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: url(../img/left.png) 50% / cover no-repeat;
+}
+.left-content {
+  padding: 183px 74px 173px;
+}
+h4 {
+  line-height: 147%;
+  letter-spacing: 0.208px;
+  margin-bottom: 30px;
+}
+.fashion {
+  letter-spacing: 1px;
+  line-height: 1.2;
+  margin-bottom: 50px;
+}
+.right-part {
+  width: 613px;
+  min-height: 639px;
+  display: inline-block;
+  vertical-align: top;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background: url(../img/right.png) 50% / cover no-repeat;
+}
+.fashion-button {
+  display: inline-block;
+  padding: 12px 44px;
+  padding: 12px 44px;
+  border-radius: 8px;
+}
+/*------Part 4-------*/
+.discover {
+  padding: 10px 15px;
+  max-width: 1300px;
+  margin: 0 auto 70px;
+}
+h5 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 121%;
+  margin-bottom: 14px;
+}
+.projects {
+  text-align: center;
+}
+.decoration {
+  background: url(../img/square.png) 0 3px no-repeat;
+  max-width: 159px;
+  margin: 0 auto;
+  color: #37393F;
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.text-block {
+  line-height: 146.187%;
+  max-width: 852px;
+  margin: 0 auto;
+  margin-bottom: 47px;
+}
+.cards-block {
+  margin-bottom: 58px;
+}
+.card {
+  display: inline-block;
+  width: 100%;
+  max-width: 384px;
+  margin-right: 34px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.card-image-one {
+  background: url(../img/card-1.png) center / cover no-repeat;
+  min-height: 500px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+h6 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 127%;
+  margin-bottom: 10px;
+}
+.date {
+  background: url(../img/data-icon.svg) no-repeat;
+  font-size: 14px;
+  line-height: 146.187%;
+  padding-left: 25px;
+}
+.card-image-two {
+  background: url(../img/card-2.png) center / cover no-repeat;
+  min-height: 500px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.card-image-three {
+  background: url(../img/card-3.png) center / cover no-repeat;
+  min-height: 500px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.cards-block-two {
+
+}
+.card-image-four {
+  background: url(../img/card-4.png) center / cover no-repeat;
+  min-height: 500px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.card-image-five {
+  background: url(../img/card-5.png) center / cover no-repeat;
+  min-height: 500px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+.card-image-six {
+  background: url(../img/card-6.png) center / cover no-repeat;
+  min-height: 500px;
+  max-width: 100%;
+  margin-bottom: 24px;
+}
+/*-------Examples---------*/
+.example-1 {
+  width: 800px;
+  height: 100px;
+  border: 2px solid #3c4242;
+  margin: 20px;
+  background-color: #40ddb6;
+  background: url(../img/vector.svg);
+  background-attachment: fixed;
+}
+.example-2 {
+  width: 800px;
+  height: 100px;
+  border: 2px solid #3c4242;
+  margin: 20px;
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(121,9,116,1) 29%, rgba(0,212,255,1) 100%);
+}
+.example-3 {
+  background: url(../img/mydog-1.jpg) center / cover no-repeat;
+  width: 800px;
+  height: 600px;
+  border: 2px solid #3c4242;
+  margin: 20px;
+}

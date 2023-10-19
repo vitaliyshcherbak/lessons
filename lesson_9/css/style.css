@@ -1,0 +1,474 @@
+@import url("fonts.css");
+@import url("reset.css");
+
+header {
+  margin-bottom: 150px;
+}
+body {
+  font-family:"Inter",sans-serif;
+  color: #7d7d7d;
+  font-size: 18px;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5 {
+  color: #37393F;
+  font-family:"Poppins";
+ }
+ .business {
+  padding: 10px 15px;
+  max-width: 703px;
+  margin: 0 auto;
+ }
+ .welcome {
+   margin-bottom: 16px;
+ }
+ .welcome-text {
+   display: inline-block;
+   color: #37393F;
+   font-weight: 500;
+ }
+ .welcome-text::before {
+  display: inline-block;
+  background: #40DDB6;
+  width: 12px;
+  height: 12px;
+  content: "";
+  margin-right: 6px;
+}
+  h1 {
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 121%;
+   margin-bottom: 20px;
+ }
+ .text-block {
+   line-height: 146.187%;
+   margin-bottom: 48px;
+ }
+ .text-block p:first-of-type {
+   margin-bottom: 15px;
+ }
+ .block {
+  margin-bottom: 48px;
+}
+.block-1 {
+  line-height: 146.187%;
+  padding: 28px 41px 28px 38px;
+  border: 1px solid #E3E3E3;
+}
+.block-1:not(:last-child) {
+  margin-bottom: 31px;
+}
+.block-1::before {
+  display: inline-block;
+  width: 27px;
+  height: 27px; 
+  content: "";
+  background: url(../img/vector.png) no-repeat;
+}
+.block-1:hover::before {
+  opacity: 0.4;
+}
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 46px;
+  margin-bottom: 12px;
+}
+.paragraf {
+  line-height: 146.187%;
+  padding-left: 46px;
+}
+.business-button {
+  display: inline-block;
+  color: #FFF;
+  background: #6b77e5;
+  font-weight: 600;
+  padding: 21px 27px 22px 27px;
+}
+.business-button:hover {
+  background: #1d224f;
+  transition: all 0.8s;
+}
+/*---------Part-2----------*/
+main {
+  margin-bottom: 50px;
+}
+.content {
+  max-width: 720px;
+  padding: 10px 15px;
+  margin: 0 auto 50px;
+}
+.content-image {
+  max-width: 100%;
+  margin-bottom: 37px;
+}
+h5 {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 127%; 
+  margin-bottom: 3px;
+}
+.content-text {
+  line-height: 146.187%; 
+  margin-bottom: 42px;
+}
+.content-block-text p:first-child {
+  font-family:"Poppins";
+  color: #6B77E5;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 127%;
+  margin-bottom: 12px;
+}
+.content-block-text {
+  color: #7D7D7D;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 146.187%; 
+  margin-bottom: 40px;
+}
+.content-bottom {
+  font-size: 0;
+  margin-bottom: 50px;
+}
+.content-bottom-image {
+ max-width: 100%;
+ margin-right: 29px;
+}
+.content-bottom-block {
+  display: inline-block;
+  min-width: 313px;
+  max-width: 40%;
+  font-size: 18px;
+  vertical-align: top;
+}
+h3 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 127%;
+}
+.content-bottom h3 {
+  margin-bottom: 15px;
+}
+h4 {
+  color: #40DDB6;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 127%;
+  margin-bottom: 21px;
+}
+li {
+  line-height: normal;
+  margin-bottom: 30px;
+}
+li:last-child {
+  margin-bottom: 0;
+}
+.list li::before {
+  display: inline-block;
+  width: 27px;
+  height: 27px; 
+  content: "";
+  background: url(../img/vector.png) no-repeat;
+  margin-bottom: -6px;
+  margin-right: 3px;
+}
+.list li:hover::before {
+  opacity: 0.5;
+}
+.content-bottom-text p:first-of-type {
+  color: #37393F;
+  font-family:"Poppins";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 127%;
+  margin-bottom: 4px;
+}
+.content-bottom-text p:last-child {
+  line-height: 146.187%;
+}
+.content-bottom-text {
+  margin-bottom: 45px;
+}
+/*--------Part-3------------*/
+.content-work {
+  max-width: 1250px;
+  padding: 10px 15px;
+  margin: 0 auto 50px;
+}
+.work-block {
+  max-width: 283px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 41px;
+}
+.work-text {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.work-text::before {
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  display: inline-block;
+  content: "";
+  background: url(../img/rectangle\ 8.png) no-repeat;
+}
+.work-text-two {
+  color: #37393F;
+  font-family:"Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 121%
+}
+.work-inner {
+}
+.inner-left,
+.inner-center,
+.inner-right {
+  max-width: 380px;
+  text-align: center;
+  display: inline-block;
+  padding: 58px 43px;
+  min-height: 301px;
+  vertical-align: top;
+  margin-right: 31px;
+}
+h3 {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.inner-left h3::before {
+  display:block;
+  width: 72px;
+  height: 72px;
+  background: url(../img/inner-1.png) 0 0 no-repeat;
+  content: "";
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+.inner-paragraf {
+  line-height: 146.187%;
+  margin-bottom: 37px;
+}
+.inner-bottom {
+  color: #6B77E5;
+  text-align: center;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.inner-center {
+}
+.inner-center h3::before {
+  display:block;
+  width: 72px;
+  height: 72px;
+  background: url(../img/inner-2.png) 0 0 no-repeat;
+  content: "";
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+.inner-paragraf {
+}
+.inner-bottom {
+}
+.inner-right {
+  margin-right: 0;
+}
+.inner-right h3::before {
+  display:block;
+  width: 72px;
+  height: 72px;
+  background: url(../img/inner-3.png) 0 0 no-repeat;
+  content: "";
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+.inner-bottom:hover {
+  text-decoration: underline;
+}
+/*-------Part-4----------*/
+.jewels-container {
+  max-width: 1245px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  font-family:"Cormorant Infant", serif;
+  color: #000;
+  font-size: 0;
+}
+.jewels-title {
+ font-size: 60px;
+ font-weight: 700;
+ line-height: 115%;
+ max-width: 495px;
+ display: inline-block;
+ padding-top: 150px;
+ vertical-align: top;
+ margin-right: 22px;
+}
+.jewels-title::after {
+ background: url(../img/line.png) no-repeat;
+ content: "";
+ display: block;
+ max-width: 304px;
+ height: 3px;
+ margin-top: 13px;
+}
+.jewels-card-one {
+ max-width: 334px;
+ padding-top: 32px;
+ margin-right: 45px;
+ display: inline-block;
+ vertical-align: top;
+}
+.back-one {
+   max-width: 334px;
+   padding: 9px 0 0 10px;
+   background: url(../img/cards-image.png) left top / 334px no-repeat;
+   margin-bottom: 25px;
+}
+.back-one:hover {
+ box-shadow: 5px 5px 20px 5px #78473B;
+}
+.about-card {
+ font-size: 24px;
+ line-height: 140%;
+ margin-bottom: 4px;
+}
+.about-card:hover {
+ text-decoration: underline;
+}
+.price {
+ font-size: 24px;
+ line-height: 140%;
+}
+.price:hover {
+ text-decoration: underline;
+}
+.jewels-card-two {
+ max-width: 334px;
+ display: inline-block;
+ vertical-align: top;
+}
+.link-two {
+ font-size: 46px;
+ font-weight: 700;
+ line-height: 113%;
+ margin-bottom: 40px;
+ display: inline-block;
+}
+.link-two:hover {
+ text-decoration: underline;
+}
+.back-two {
+   max-width: 334px;
+   padding: 9px 0 0 10px;
+   background: url(../img/cards-image-two.png) left top /334px no-repeat;
+   margin-bottom: 25px;
+}
+.back-two:hover {
+ box-shadow: 5px 5px 20px 5px #78473B;
+}
+/*---------------Game-------------------*/
+footer {
+  margin-bottom: 50px;
+}
+.game {
+	width: 930px;
+	height: 900px;
+	background-color: rgb(197, 197, 84);
+	padding: 10px 15px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.game div:not(:last-child) {
+	background-color: aqua;
+}
+.game__line-1 {
+	width: 50px;
+	height: 50px;
+  font-size: 14px;
+  color: #1d224f;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 18px;
+}
+.game__line-2 {
+	width: 50px;
+	height: 50px;
+	visibility: hidden;
+}
+.game__line-1:hover ~ .game__line-2,
+.game__line-2:hover { 
+	visibility: visible;
+}
+.game__line-3 {
+	height: 50px;
+	width: 900px;
+	visibility: hidden;
+}
+.game__line-2:hover ~ .game__line-3,
+.game__line-3:hover { 
+	visibility: visible;
+}
+.game__line-4 {
+	width: 50px;
+	height: 150px;
+	margin-left: auto;
+	visibility: hidden;
+}
+.game__line-3:hover ~ .game__line-4,
+.game__line-4:hover { 
+	visibility: visible;
+}
+.game__line-5 {
+	height: 50px;
+	width: 900px;
+	visibility: hidden;
+}
+.game__line-4:hover ~ .game__line-5,
+.game__line-5:hover { 
+	visibility: visible;
+}
+.game__line-6 {
+	width: 50px;
+	height: 150px;
+	visibility: hidden;
+}
+.game__line-5:hover ~ .game__line-6,
+.game__line-6:hover { 
+	visibility: visible;
+}
+.game__line-7 {
+	height: 50px;
+	width:450px;
+	visibility: hidden;
+}
+.game__line-6:hover ~ .game__line-7,
+.game__line-7:hover { 
+	visibility: visible;
+}
+.game__line-8 {
+	height: 50px;
+	width:50px;
+	margin-left: 400px;
+	visibility: hidden;
+}
+.game__line-7:hover ~ .game__line-8,
+.game__line-8:hover { 
+	visibility: visible;
+}
+.game-image {
+	visibility: hidden;
+	height: 900px;
+}
+.game__line-8:hover ~ .game-image,
+.game-image:hover {
+	visibility: visible;
+	background: url(../img/IMG_20230920_092941.jpg) center / cover no-repeat;
+}

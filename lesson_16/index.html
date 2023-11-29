@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>lesson_16</title>
+</head>
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="header__container">
+            <h2 class="header__sub-title">Contact Us</h2>
+            <h1 class="header__title">Request A Call Back !</h1>
+            <form class="header__form form" method="GET" action="#">
+               <div class="form__inputs">
+                  <div class="form__item">
+                     <input class="form__input" autocomplete="on" name="name" placeholder="Your Name" type="text">
+                  </div>
+                  <div class="form__item">
+                     <input class="form__input" autocomplete="on" name="name" placeholder="Phone Number" type="text">
+                  </div>
+                  <div class="form__item">
+                     <input class="form__input" required="" name="email" type="email" placeholder="Email Address">
+                  </div>
+                  <div class="form__item">
+                     <input class="form__input" name="subject" type="text" placeholder="Subject">
+                  </div>
+                  <div class="form__item">
+                     <textarea class="form__textarea" name="message" placeholder="Message..."></textarea>
+                  </div>
+               </div>
+               <button class="header__button">Submit</button>
+            </form>
+         </div>
+      </header>
+      <main class="main">
+         <div class="main__container">
+            <div class="main__info-titles">
+               <div class="main__title">My Info</div>
+               <div class="main__subtitle">Add Address</div>
+            </div>
+            <form class="main__form main-form" action="#">
+               <div class="main-form__items">
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="first-name">First Name*</label>
+                     <input class="main-form__input" required id="first-name" name="first-name" placeholder="First Name" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="last-name">Last Name*</label>
+                     <input class="main-form__input" required id="last-name" name="last-name" placeholder="Last Name" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="country">Country / Region*</label>
+                     <input class="main-form__input" required id="country" name="country" placeholder="Country / Region" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="company">Company Name</label>
+                     <input class="main-form__input" id="company" name="company" placeholder="Company (optional)" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="address">Street Address*</label>
+                     <input class="main-form__input" required id="address" name="address" placeholder="House number and street name" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="address-02">Apt, suite, unit</label>
+                     <input class="main-form__input" id="address-02" name="address-02" placeholder="apartment, suite, unit, etc. (optional)" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="city">City</label>
+                     <input class="main-form__input" required id="city" name="city" placeholder="Town / City" type="text">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="state">State*</label>
+                     <select class="main-form__select" name="state" id="state">
+                        <option class="main-form__option" value="state-01">State</option>
+                        <option class="main-form__option" value="state-02">State 2</option>
+                        <option class="main-form__option" value="state-03">State 3</option>
+                     </select>
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="phone">Phone</label>
+                     <input class="main-form__input" required id="phone" name="phone" placeholder="Phone" type="tel">
+                  </div>
+                  <div class="main-form__item">
+                     <label class="main-form__label" for="postal-1">Postal Code*</label>
+                     <input class="main-form__input" required id="postal-1" name="postal-1" placeholder="Postal Code" type="tel">
+                  </div>
+                  <div class="main-form__textarea ">
+                     <label class="main-form__label" for="delivery">Delivery Inscruction</label>
+                     <textarea class="main-form__area" id="delivery" name="instruction" placeholder="Delivery Instruction"></textarea>
+               </div>
+               <div class="main-form__checkbox checkbox">
+                  <div class="checkbox__item">
+                     <input class="checkbox__input" id="check-1" name="check-1" type="checkbox">
+                     <label class="checkbox__label" for="check-1">Set as default shipping address</label>
+                  </div>
+                  <div class="checkbox__item">
+                     <input class="checkbox__input" id="check-2" name="check-2" type="checkbox">
+                     <label class="checkbox__label" for="check-2">Set as default billing address</label>
+                  </div>
+               </div>
+               <div class="main-form__buttons">
+               <button class="main-form__button button-one" type="submit">Save</button>
+               <button class="main-form__button button-two" type="reset">Cancel</button>
+            </div>
+            </div>
+         </form>
+         </div>
+      </main>
+      <footer class="footer"></footer>
+</div>
+</body>
+</html>

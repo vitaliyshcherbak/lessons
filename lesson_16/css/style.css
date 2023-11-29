@@ -1,0 +1,251 @@
+@import url("fonts.css");
+@import url("reset.css");
+body {
+  font-family:"Inter",sans-serif;
+  font-size: 18px;
+  color: #37393F;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: clip;
+}
+[class*="__container"] {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  padding: 50px 0;
+  
+}
+.header__container {
+}
+.header__sub-title {
+  font-weight: 500;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.header__sub-title::before {
+  content: "";
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  background-color: #40DDB6;
+}
+.header__title {
+  color: #37393F; 
+  text-align: center;
+  font-family:"Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 121%;
+  margin-bottom: 40px;
+}
+.header__form {
+  text-align: center;
+}
+.form {
+}
+.form__inputs {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 28px;
+  margin: 0 -17.5px;
+}
+.form__item {
+  flex: 0 1 50%;
+  padding: 0 17.5px;
+}
+.form__input {
+  height: 65px;
+  width: 100%;
+  padding: 0 40px;
+  border: 1px solid #DDD;
+  background: #F8F8F8;
+  color: #414141;
+  border-radius: 0 !important;
+}
+.form__item:last-child {
+  flex: 1 1 100%;
+  min-height: 222px;
+
+}
+.form__textarea {
+  margin: 0px 0px 50px 0px;
+  resize: vertical;
+  min-height: 222px;
+  padding: 22px 40px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  color: #414141;
+  width: 100%;
+  border-radius: 0 !important;
+}
+.header__button {
+  padding: 21px 61px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.2;
+  padding: 21px 61px;
+  background-color: #6b77e5;
+  transition: all 0.3s;
+}
+.header__button:hover {
+  background-color: #232d85;
+}
+/*-------------Main---------------*/
+.main {
+}
+.main__container {
+  max-width: 925px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.main__info-titles {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  row-gap: 20px;
+}
+.main__title {
+  color: #3C4242;
+  font-family: "CoreSansC", sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.19;
+  letter-spacing: 0.56px;
+}
+.main__subtitle {
+  color: #3C4242;
+  font-family: "CoreSansC", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.52;
+  letter-spacing: 0.44px;
+}
+.main__form {
+}
+.main-form {
+}
+.main-form__items {
+  margin: 0 -21px 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-form__item {
+  padding: 0 21px;
+  flex: 0 1 50%;
+}
+.main-form__label {
+  display: inline-block;
+  font-family:"Causten-Bold";
+  color: #3C4242;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.36px;
+  margin-bottom: 10px;
+}
+.main-form__input {
+  color: #807D7E; 
+  font-family:"Causten-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  padding: 0 22px;
+  height: 55px;
+}
+.main-form__select {
+  display: inline-block;
+  color: #807D7E;
+  font-family:"Causten-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.36px;
+  width: 100%;
+  background-color: #f6f6f6;
+  border-radius: 8px;
+  padding: 0 22px;
+  height: 55px; 
+  margin-bottom: 10px;
+  
+}
+.main-form__option {
+ 
+  
+}
+.main-form__textarea {
+  flex: 0 1 100%;
+  padding: 0 21px;
+}
+.main-form__area {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  min-height: 149px;
+  padding: 18px 22px;
+  resize: vertical;
+}
+.main-form__checkbox {
+  width: 100%;
+  font-family: "Causten", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3c4242;
+  margin-bottom: 60px;
+}
+.checkbox__item {
+  position: relative;
+  color: #3C4242;
+  font-family: "Causten-Regular";
+  font-size: 20.087px;
+  font-weight: 400;
+}
+.checkbox__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.checkbox__input {
+}
+.checkbox__label {
+  font-size: 20px;
+  line-height: 1.2;
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+}
+.main-form__buttons {
+  display: flex;
+  gap: 30px;
+  font-family: "Causten-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  color: #807d7e;
+}
+.main-form__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #8a33fd;
+  padding: 12px 40px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: all 0.3s;
+}
+.main-form__button:hover {
+  background-color: #451682;
+}
+.button-two {
+  background-color: #fff;
+  color: #8A33FD;
+  border: 1px solid #3C4242;
+}

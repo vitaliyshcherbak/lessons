@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:600,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@font-face {
+   font-family: "CoreSansC-85Heavylt";
+   src:url(../fonts/CoreSansC-85HeavyIt.woff2) format('woff2'),
+       url(../fonts/CoreSansC-85HeavyIt.woff) format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face {
+    font-family: "Causten-Bold";
+       src: 
+       url(../fonts/AnyConv.com__Causten-Bold.woff2) format("woff2"),
+       url(../fonts/AnyConv.com__Causten-Bold.woff) format("woff");
+       font-weight: normal;
+       font-style: normal;
+       font-display: swap;
+    }
+    @font-face {
+      font-family: "Causten-Medium";
+         src: 
+         url(../fonts/Causten-Medium.woff2) format("woff2"),
+         url(../fonts/Causten-Medium.woff) format("woff");
+         font-weight: normal;
+         font-style: normal;
+         font-display: swap;
+      }

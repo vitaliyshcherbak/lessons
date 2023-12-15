@@ -1,0 +1,162 @@
+@import "_reset.scss";
+@import "_fonts.scss";
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+.main {
+
+		// .main__products
+
+		&__products {
+         padding: 94px 0;
+         background-color: #0e333d;
+         color: #fff;
+         @media (max-width:991.8px) {
+            padding: 60px 0;
+         }
+         @media (max-width:479.98px) {
+            padding: 15px 0;
+         }
+		}
+}
+.products {
+
+		// .products__container
+
+		&__container {
+         max-width: 1206px;
+         padding-left: 15px;
+         padding-right: 15px;
+         margin: 0 auto;
+		}
+
+		// .products__titles
+
+		&__titles {
+         text-align: center;
+         margin-bottom: 77px;
+		}
+
+		// .products__title
+
+		&__title {
+         color: #FFF;
+         font-family: "DM Serif Text";
+         font-size: 48px;
+         font-weight: 400;
+         line-height: 127%;
+         @media (max-width:479.98px) {
+         font-size: 25px;
+         }
+         &:not(:last-child) {
+            margin-bottom: 23px;
+          }
+		}
+
+		// .products__subtitle
+
+		&__subtitle {
+         color: #EBEBEB;
+         font-family:'Raleway', sans-serif;
+         font-size: 20px;
+         font-weight: 500;
+         line-height: 127%;
+         margin-bottom: 34px;
+		}
+
+		// .products__menu
+
+		&__menu {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 41px;
+         margin-bottom: 77px;
+		}
+
+		// .products__item
+
+		&__item {
+         font-family: 'Raleway', sans-serif;
+         font-size: 18px;
+         font-weight: 600;
+         line-height: 127%;
+         transition: all 0.3s;
+         &:hover {
+            text-decoration: underline 2px #fff;
+          }
+		}
+
+		// .products__cards
+
+		&__cards {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 2.6%;
+         @media (max-width:991.8px) {
+              gap: 6%;
+            }
+		}
+
+		// .products__link
+
+		&__link {
+         flex: 0 1 23%;
+         @media (max-width:991.8px) {
+         flex: 0 1 47%;
+         }
+         @media (max-width:479.98px) {
+            flex: 0 1 100%;
+            }
+		}
+
+		// .products__content-card
+
+		&__content-card {
+         display: flex;
+         flex-direction: column;
+         height: 100%;
+		}
+
+		// .products__image
+
+		&__image {
+         aspect-ratio: 270 / 270;
+         height: 100%;
+         width: 100%;
+         object-fit: cover;
+         margin-bottom: 17px;
+         border-radius: 5px;
+         transition: all 0.5s;
+         &:hover {
+            transform: scale(1.05);
+          }
+		}
+
+		// .products__about
+
+		&__about {
+         font-family: 'Cormorant Infant', serif;
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 140%; 
+         transition: all 0.3s; 
+         &:hover {
+            text-decoration: underline 2px #fff;
+          }
+		}
+
+		// .products__price
+
+		&__price {
+         font-family: 'Cormorant Infant', serif;
+         font-size: 24px;
+         font-weight: 700;
+         line-height: 140%;
+         transition: all 0.3s;
+		}
+}
+
